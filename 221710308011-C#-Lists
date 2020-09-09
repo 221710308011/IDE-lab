@@ -1,5 +1,6 @@
 
 Lists:
+
 String interpolation:
 var names = new List<string> { "<name>", "Karthik", "Chilukuri" };
 foreach (var name in names)
@@ -8,10 +9,12 @@ foreach (var name in names)
 }
 Output:
 Hello <NAME>!
-Hello SATHVIK!
-Hello ADIRAJU!
+Hello KARTHIK!
+Hello CHILUKURI!
+
 
 Modify list contents:
+
 var names = new List<string> { "<name>", "Karthik", "Chilukuri" };
 foreach (var name in names)
 {
@@ -39,11 +42,13 @@ Hello CHILUKURI!
 Hello MARIA!
 Hello BILL!
 My name is <name>.
-I've added Adiraju and Maria to the list.
+I've added CHILUKURI and Maria to the list.
 The list has 5 people in it
 
+
 Search and sort lists:
-var index = names.IndexOf("Adiraju");
+
+var index = names.IndexOf("CHILUKURI");
 if (index != -1)
   Console.WriteLine($"The name {names[index]} is at index {index}");
 var notFound = names.IndexOf("Not Found");
@@ -54,7 +59,7 @@ foreach (var name in names)
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 Output:
-The name Adiraju is at index 2
+The name CHILUKURI is at index 2
 When an item is not found, IndexOf returns -1
 Hello <NAME>!
 Hello CHILUKURI!
@@ -64,8 +69,8 @@ Hello KARTHIK!
 
 
 Fibonacci series:
-var fibonacciNumbers = new List<int> {1, 1};
 
+var fibonacciNumbers = new List<int> {1, 1};
 while (fibonacciNumbers.Count < 20)
 {
     var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
