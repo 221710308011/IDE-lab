@@ -9,7 +9,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var names = new List<string> { "Eesha", "Priya", "Gutta" };
+            var names = new List<string> { "Chilukuri", "Satya Sai", "Karthik" };
             foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -27,7 +27,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-var names = new List<string> { "Eesha", "Priya", "Gutta" };
+var names = new List<string> {  "Chilukuri", "Satya Sai", "Karthik"  };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -53,7 +53,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-var names = new List<string> { "Eesha", "Priya", "Gutta" };
+var names = new List<string> {  "Chilukuri", "Satya Sai", "Karthik"  };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -82,7 +82,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-var names = new List<string> { "Eesha", "Ana", "Felipe" };
+var names = new List<string> { "Karthik", "Ana", "Felipe" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
