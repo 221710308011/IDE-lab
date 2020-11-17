@@ -24,6 +24,5 @@ class StudentDetails{
         }
         System.out.println("Average Marks : " + total/6);
         System.out.println("Percentage : " + (total*100)/90 + "%");
-        
     }
 }
